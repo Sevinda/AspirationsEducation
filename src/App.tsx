@@ -1,5 +1,24 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import HotCourses from "./pages/HotCourses";
+import Universities from "./pages/Universities";
+import Navbar from "./shared/Navbar";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/universities" element={<Universities />} />
+        <Route path="/hot-courses" element={<HotCourses />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;

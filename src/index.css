@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #fffbf3;
+  font-family: "Playfair Display", serif;
+  overflow-x: hidden;
+}
+
+p,
+li {
+  font-size: 20px;
+}
+
+.navbar_gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    137deg,
+    rgba(255, 255, 255, 0.10072595932904416) 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  backdrop-filter: blur(20px);
+}
+
+.flower_image {
+  background-image: url("/images/FlowerBackground.png");
+}
+
+.button_gradient {
+  background: radial-gradient(
+    ellipse,
+    rgba(251, 137, 31, 1) 15%,
+    rgba(251, 210, 31, 1) 100%
+  );
+  transition: background 2s ease;
+}
+
+.button_gradient:hover {
+  background: radial-gradient(
+    ellipse,
+    rgba(251, 137, 31, 1) 25%,
+    rgba(251, 137, 31, 1) 100%
+  );
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
