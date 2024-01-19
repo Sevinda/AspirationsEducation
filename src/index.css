@@ -6,11 +6,15 @@ body {
   background-color: #fffbf3;
   font-family: "Playfair Display", serif;
   overflow-x: hidden;
+  height: 300vh;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 p,
 li {
   font-size: 20px;
+  font-weight: 500;
 }
 
 .navbar_gradient {
@@ -52,4 +56,24 @@ li {
 
 .animate-spin-slow {
   animation: spin-slow 10s linear infinite;
+}
+
+.small-card-gradient {
+  background: #fff38a;
+  background: linear-gradient(137deg, #fff38a10 0%, #fff38a40 100%);
+  backdrop-filter: blur(10px);
+}
+
+@media (min-width: 1600px) {
+  .absolute-girl {
+    right: calc(50vw - 550px);
+  }
+
+  .absolute-boy {
+    right: calc(50vw - 720px);
+  }
+
+  .absolute-earth {
+    right: calc(50vw - 720px);
+  }
 }

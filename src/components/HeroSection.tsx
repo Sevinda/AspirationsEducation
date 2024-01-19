@@ -30,17 +30,17 @@ const HeroSection = () => {
         <img
           src="/images/Earth.svg"
           alt="Earth"
-          className="h-[400px] px-[30px] animate-spin-slow"
+          className="absolute top-[180px] right-[80px] h-[400px] px-[30px] animate-spin-slow absolute-earth"
         />
         <img
           src="/images/UndergraduateBoy.svg"
           alt="Boy"
-          className="absolute top-[180px] right-[80px]"
+          className="absolute top-[180px] right-[80px] absolute-boy"
         />
         <img
           src="/images/UndergraduateGirl.svg"
           alt="Girl"
-          className="absolute top-[180px] right-[245px]"
+          className="absolute top-[180px] right-[245px] absolute-girl"
         />
       </div>
     </div>
