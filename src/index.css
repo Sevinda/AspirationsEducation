@@ -6,7 +6,7 @@ body {
   background-color: #fffbf3;
   font-family: "Playfair Display", serif;
   overflow-x: hidden;
-  height: 300vh;
+  height: 800vh;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -76,4 +76,13 @@ li {
   .absolute-earth {
     right: calc(50vw - 720px);
   }
+}
+
+.hover-card:hover img {
+  transform: translateY(-30px);
+}
+
+.hover-card:hover p {
+  font-weight: 900;
+  font-size: 24px;
 }
