@@ -1,4 +1,4 @@
-import "../index.css";
+import "../../index.css";
 import SmallNumberCard from "./SmallNumberCard";
 
 const BackgroundCardSection = () => {

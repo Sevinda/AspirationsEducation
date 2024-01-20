@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import GradientBtn from "./GradientBtn";
 
-import "../index.css";
+import "../../index.css";
 
 const HeroSection = () => {
   return (
