@@ -3,7 +3,7 @@ import HotCourseCard from "./HotCourseCard";
 const HotCourseComponent = () => {
   return (
     <div className="mt-[260px] text-center">
-      <h2 className="text-[48px] font-bold">Hot Course</h2>
+      <h2 className="text-[48px] font-bold">Hot Courses</h2>
       <p className="mt-[70px] w-[669px] my-0 mx-auto">
         Here are few popular and in demand programs at the moment. Feel free to
         contact us to select the best options for you.
